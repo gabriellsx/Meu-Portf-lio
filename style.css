@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161616;
+  line-height: normal;
+  width: 1440px;
+  height: 3116px;
+  margin: 0 auto;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  margin-top: 35px;
+}
+
+nav {
+  margin-top: 51px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: Bai Jamjuree;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* PARTE 1*/
+
+.secao-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 188px;
+  margin-bottom: 272px;
+}
+
+.secao-principal > h1 {
+  width: 419px;
+  position: relative;
+  font-size: 42px;
+  display: inline-block;
+  font-family: "Bai Jamjuree";
+  color: #fff;
+  text-align: left;
+}
+
+.secao-principal > p {
+  width: 864px;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  line-height: 101.5%;
+  font-family: "Bai Jamjuree";
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+/* PARTE 2 */
+
+.secao-apresentacao {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  background-color: #2d82b7;
+  height: 517px;
+  text-align: center;
+  padding: 50px;
+}
+
+.secao-apresentacao > h2 {
+  width: 708px;
+  position: relative;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Bai Jamjuree";
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.secao-apresentacao > p {
+  width: 585.1px;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  opacity: 0.6;
+}
+
+.caixa-infos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30.17px;
+  margin-top: 69px;
+}
+
+.caixa-infos article {
+  width: 366px;
+  height: 245px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid #e9eeef;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.caixa-infos article h2 {
+  width: 319px;
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+  color: #010d21;
+  text-align: left;
+  display: inline-block;
+  opacity: 0.75;
+}
+
+.caixa-infos article p {
+  width: 304px;
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Plus Jakarta Sans";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  height: 96px;
+  opacity: 0.55;
+}
+
+/* PARTE 3 */
+
+.secao-habilidades {
+  height: 260px;
+  margin-top: 178px;
+  margin-bottom: 172px;
+}
+
+.secao-habilidades h2 {
+  width: 240px;
+  position: relative;
+  font-size: 42px;
+  font-family: "Ubuntu Mono";
+  color: #fff;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.icone-habilidades {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Ubuntu Mono";
+}
+
+/* PARTE 4 */
+
+.secao-trabalhos > h2 {
+  width: 220px;
+  position: relative;
+  font-size: 42px;
+  font-family: "Bai Jamjuree";
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 37px;
+}
+
+.lista-projetos {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 46px 0px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  margin-bottom: 180px;
+}
+
+.cartao-projeto {
+  width: 366px;
+  position: relative;
+  border-radius: 14px;
+  background-color: rgba(45, 130, 183, 0.2);
+  height: 245px;
+  padding: 30px;
+}
+
+.cartao-projeto h2 {
+  width: 319px;
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  opacity: 0.75;
+}
+
+.cartao-projeto p {
+  width: 304px;
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Plus Jakarta Sans";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  height: 96px;
+  opacity: 0.8;
+}
+
+.cartao-projeto a {
+  width: 82px;
+  position: relative;
+  font-size: 14px;
+  line-height: 150%;
+  display: inline-block;
+  font-family: "Plus Jakarta Sans";
+  color: #d9dbdd;
+  text-align: left;
+}
+
+/* PARTE 5*/
+
+.secao-contato {
+  width: 100%;
+  position: relative;
+  background-color: rgba(45, 130, 183, 0.2);
+  height: 392px;
+}
+
+.secao-contato h2 {
+  width: 50%;
+  position: relative;
+  font-size: 32px;
+  font-family: "Bai Jamjuree";
+  color: #fff;
+  text-align: right;
+}
+.contato-bloco {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contato-bloco a {
+  color: white;
+  font-size: 20px;
+  font-family: Ubuntu Mono;
+  font-weight: 700;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.contato-coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
